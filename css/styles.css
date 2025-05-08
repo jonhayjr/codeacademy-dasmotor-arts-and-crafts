@@ -37,11 +37,15 @@ body {
     font-weight: bold;
     color: white;
     padding: 2px 0;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 .main h3 {
     margin: 10px 0;
+}
+
+.main p {
+    margin-bottom: 20px;
 }
 
 main .blue-text {
@@ -52,6 +56,11 @@ main .blue-text {
 /*Brushes*/
 .brushes-heading {
     background-color: mediumspringgreen;
+}
+
+/*Frames*/
+.frames-heading {
+    background-color: lightcoral;
 }
 
 /*Media Queries*/
