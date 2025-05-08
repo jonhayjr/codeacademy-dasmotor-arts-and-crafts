@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Helvetica;
+}
+
 /*Header section*/
 .header {
     background-image: url("../img/pattern.jpeg");
@@ -13,7 +17,7 @@
 }
 
 .heading {
-    font-family: Helvetica;
+
     font-size: 100px;
     font-weight: bold;
     color: khaki;
@@ -22,8 +26,35 @@
     padding: 20px 0;
 }
 
-/*Media Queries*/
+/*Main section*/
+.main {
+    margin: 0 8px 0;
+}
 
+.main h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    padding: 2px 0;
+    margin-bottom: 35px;
+}
+
+.main h3 {
+    margin: 10px 0;
+}
+
+main .blue-text {
+    font-weight: bold;
+    color: blue;
+}
+
+/*Brushes*/
+.brushes-heading {
+    background-color: mediumspringgreen;
+}
+
+/*Media Queries*/
 @media screen and (min-width: 480px) {
     .heading {
         font-size: 75px;
