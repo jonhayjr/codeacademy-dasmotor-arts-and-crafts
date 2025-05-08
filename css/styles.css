@@ -17,7 +17,6 @@ body {
 }
 
 .heading {
-
     font-size: 100px;
     font-weight: bold;
     color: khaki;
@@ -28,7 +27,7 @@ body {
 
 /*Main section*/
 .main {
-    margin: 0 8px 0;
+    margin: 0 10px 0;
 }
 
 .main h2 {
@@ -36,7 +35,7 @@ body {
     font-size: 32px;
     font-weight: bold;
     color: white;
-    padding: 2px 0;
+    padding: 5px 2px;
     margin-bottom: 20px;
 }
 
@@ -61,6 +60,11 @@ main .blue-text {
 /*Frames*/
 .frames-heading {
     background-color: lightcoral;
+}
+
+/*Paint*/
+.paint-heading {
+    background-color: skyblue;
 }
 
 /*Media Queries*/
