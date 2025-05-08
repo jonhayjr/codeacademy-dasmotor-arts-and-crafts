@@ -4,3 +4,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Header section*/
+.header {
+    background-image: url("../img/pattern.jpeg");
+    height: 150px;
+    margin: 30px 10px;
+}
+
+.heading {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 480px) {
+    .heading {
+        font-size: 75px;
+    }
+  }
